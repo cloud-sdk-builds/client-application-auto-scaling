@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-application-auto-scaling`](https://www.npmjs.com/package/@aws-sdk/client-application-auto-scaling/v/3.1178.0).
+[`@aws-sdk/client-application-auto-scaling`](https://www.npmjs.com/package/@aws-sdk/client-application-auto-scaling/v/3.1179.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-application-auto-scaling - [https://cloud-sdk-builds.github.io/?sdk=client-application-auto-scaling](https://cloud-sdk-builds.github.io/?sdk=client-application-auto-scaling)
-- @aws-sdk/client-application-auto-scaling v3.1178.0 - [https://cloud-sdk-builds.github.io/?sdk=client-application-auto-scaling&version=3.1178.0](https://cloud-sdk-builds.github.io/?sdk=client-application-auto-scaling&version=3.1178.0)
+- @aws-sdk/client-application-auto-scaling v3.1179.0 - [https://cloud-sdk-builds.github.io/?sdk=client-application-auto-scaling&version=3.1179.0](https://cloud-sdk-builds.github.io/?sdk=client-application-auto-scaling&version=3.1179.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-application-auto-scaling@3.1178.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-application-auto-scaling@3.1179.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-MrrMUMHZy72mnmcDUCpQ1VRWzHQQaZf9i2poVEsaZgp0w6kyFy500nw3oo1x8xMP
+sha384-Z6LBiL7g5lhZHFFDAiAAqFce4seApU8Hw67E6L7v7LnCZ1bCjSl4EtkOen/5eBPT
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-application-auto-scaling": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-application-auto-scaling@3.1178.0/index.min.mjs"
+            "@aws-sdk/client-application-auto-scaling": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-application-auto-scaling@3.1179.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-application-auto-scaling@3.1178.0/index.min.mjs": "sha384-MrrMUMHZy72mnmcDUCpQ1VRWzHQQaZf9i2poVEsaZgp0w6kyFy500nw3oo1x8xMP"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-application-auto-scaling@3.1179.0/index.min.mjs": "sha384-Z6LBiL7g5lhZHFFDAiAAqFce4seApU8Hw67E6L7v7LnCZ1bCjSl4EtkOen/5eBPT"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-application-auto-scaling": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-application-auto-scaling@3.1178.0/index.min.mjs"
+                        "@aws-sdk/client-application-auto-scaling": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-application-auto-scaling@3.1179.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-application-auto-scaling@3.1178.0/index.min.mjs": "sha384-MrrMUMHZy72mnmcDUCpQ1VRWzHQQaZf9i2poVEsaZgp0w6kyFy500nw3oo1x8xMP"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-application-auto-scaling@3.1179.0/index.min.mjs": "sha384-Z6LBiL7g5lhZHFFDAiAAqFce4seApU8Hw67E6L7v7LnCZ1bCjSl4EtkOen/5eBPT"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1178.0`)
+* Always pin to a specific version (`@3.1179.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-application-auto-scaling/blob/refs/tags/3.1178.0/LICENSE
+https://github.com/cloud-sdk-builds/client-application-auto-scaling/blob/refs/tags/3.1179.0/LICENSE
 ```
 
 ---
